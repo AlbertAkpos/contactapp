@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;;
+    margin: 0 auto;
+    background: rgb(80, 150, 141);
+    padding: 20px 20px;
+}
+
+h1 {
+    width: 100%;
+    background: rgb(217, 200, 221);
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgb(59, 40, 40);
+}
+
+.input, 
+.add-input {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.add-contact {
+    width: 50%;
+    height: 30px;
+    text-indent: 4px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    
+}
+
+.add-btn {
+    width: 18%;
+    height: 30px;
+    color: rgb(223, 221, 221);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background: indianred;
+    outline: none;
+}
+
+#filterInput {
+    width: 70%;
+    height: 40px;
+    text-indent: 5px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+ul li {
+    list-style: none;
+}
+ul li h5 {
+    font-size: 1.3rem;
+    background: rgb(231, 227, 227);
+    padding: 10px 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+ul li:not(#capital-letters) {
+    list-style: none;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    position: relative;
+    border-top: 1px solid rgb(217, 200, 221);
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+}
+
+ul li #delete-btn {
+    background: rgb(128, 45, 45);
+    border: 0;
+    outline: none;
+    position: absolute;
+    cursor: pointer;
+    top: 3px;
+    right: 10px;
+    padding: 0.3rem 0.5rem;
+    border-radius: 3px;
+    color: #fff;
+    box-shadow: 2px 2px 5px rgb(59, 40, 40);
+}
